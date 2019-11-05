@@ -4,8 +4,8 @@ from flask_restful import Api
 
 from db import db
 from ma import ma
-from resources.user.user import UserResource, UserRegisterResource
-from resources.case.case import CaseResource, CasesResource
+from resources.user import UserResource, UserRegisterResource
+from resources.case import CaseResource, CasesResource
 
 app = Flask(__name__)
 app.config['MONGOALCHEMY_DATABASE'] = 'mymongodb'

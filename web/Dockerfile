@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 COPY Pipfile ./
 COPY Pipfile.lock ./
 RUN pipenv install
-COPY . ./
+COPY . .
 RUN pwd
 RUN ls
 CMD ["pipenv", "run", "python", "app.py" ]
