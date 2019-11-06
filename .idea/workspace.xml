@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee5dd6f-34c6-4741-beda-2f962190d8ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/police-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/police-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ma.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/ma.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/model/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/model/case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/model/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/schema/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/case/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/user/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/user/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/schema/case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/schema/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pipfile.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,14 +32,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work\SBK\police-app-api-py\police-api\db" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\SBK\police-app-api-py\police-api" />
       <recent name="C:\Work\SBK\police-app-api-py\police-api\web\resources" />
       <recent name="C:\Work\SBK\police-app-api-py\police-api\web" />
-      <recent name="C:\Work\SBK\police-app-api-py\police-api" />
       <recent name="C:\Work\SBK\police-app-api-py\police-api\backend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work\SBK\police-app-api-py\police-api\db" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,7 +190,7 @@
       <workItem from="1572801694011" duration="22395000" />
       <workItem from="1572891429196" duration="3878000" />
       <workItem from="1572900341516" duration="2901000" />
-      <workItem from="1572955852246" duration="996000" />
+      <workItem from="1572955852246" duration="18085000" />
     </task>
     <servers />
   </component>
