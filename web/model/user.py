@@ -5,10 +5,12 @@ from db import db
 
 class User(db.Document):
     username = db.StringField(required=True)
+    password = db.StringField(required=True)
     first_name = db.StringField(required=True)
     last_name = db.StringField(required=True)
     country_origin = db.StringField(required=True)
     identification_num = db.StringField(required=True)
+    email = db.StringField(required=True)
 
     @classmethod
     def find_all(cls) -> List['User']:
