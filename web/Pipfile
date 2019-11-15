@@ -10,8 +10,9 @@ flask = "*"
 flask-restful = "*"
 flask-mongoalchemy = "*"
 flask-marshmallow = "*"
-flask-oauthlib = "==0.9.4"
 python-dotenv = "*"
+flask-jwt-oidc = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"

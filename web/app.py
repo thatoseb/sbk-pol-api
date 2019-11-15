@@ -8,7 +8,8 @@ from resources.user import UserResource, UserRegisterResource
 from resources.case import CaseResource, CasesResource
 
 app = Flask(__name__)
-app.config.from_object("default_config")
+app.config.from_object('default_config')
+app.config.from_object("config")
 api = Api(app)
 
 api.add_resource(UserResource, '/api/user/<string:username>')

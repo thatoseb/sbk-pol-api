@@ -1,1 +1,5 @@
 .idea/
+web/model/__pycache__/
+web/resources/__pycache__/
+web/schema/__pycache__/
+web/__pycache__/
