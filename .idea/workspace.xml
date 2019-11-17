@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee5dd6f-34c6-4741-beda-2f962190d8ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resources/keycloak.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/keycloak.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/resources/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,7 +193,7 @@
       <workItem from="1572955852246" duration="31508000" />
       <workItem from="1573209543595" duration="9249000" />
       <workItem from="1573667505975" duration="948000" />
-      <workItem from="1573728013359" duration="12824000" />
+      <workItem from="1573728013359" duration="19006000" />
     </task>
     <servers />
   </component>

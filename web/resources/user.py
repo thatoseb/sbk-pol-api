@@ -5,6 +5,7 @@ from model.user import User
 from schema.user import UserSchema
 from resources.keycloak import Keycloak
 from resources.keycloak import KeycloakAdminError
+from keycloak_config import KeycloakConfig
 
 USER_NOT_FOUND = 'User, {} NOT FOUND'
 USER_ALREADY_EXISTS = 'User with {}, {} has already been registered'
@@ -12,6 +13,7 @@ CREATED_SUCCESSFULLY = "User created successfully."
 
 user_schema = UserSchema()
 kc = Keycloak()
+k_config = KeycloakConfig()
 
 
 class UserResource(Resource):
@@ -65,4 +67,16 @@ class UserRegisterResource(Resource):
         user.save_user()
 
         return {'message': CREATED_SUCCESSFULLY}, 200
+
+
+class UserLoginResource(Resource):
+
+    @classmethod
+    def post(cls):
+        body = request.get_json()
+        response = kc.keycloak_user_login(body)
+        return response
+
+
+
 

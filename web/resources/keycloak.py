@@ -43,6 +43,43 @@ class Keycloak:
         data = response.json()
         return data.get('access_token')
 
+    @classmethod
+    def keycloak_user_login(cls, body):
+        for field in ['username', 'password']:
+            if field not in body:
+                return {'Field {} is missing!'.format(field)}, 400
+
+        data = {
+            'grant_type': 'password',
+            'client_id': kc.KEYCLOAK_CLIENT_ID,
+            'client_secret': kc.KEYCLOAK_CLIENT_SECRET,
+            'username': body['username'],
+            'password': body['password']
+        }
+
+        url = ''.join([
+            kc.KEYCLOAK_URI,
+            'realms/',
+            kc.KEYCLOAK_REALM,
+            '/protocol/openid-connect/token'
+        ])
+
+        response = requests.post(url, data=data)
+
+        if response.status_code > 200:
+            message = "Error on username/password"
+            return {'message': message}, 400
+
+        tokens_data = response.json()
+
+        # ret = {
+        #     'tokens': {"access_token": tokens_data['access_token'],
+        #                "refresh_token": tokens_data['refresh_token'], }
+        # }
+
+        return {"access_token": tokens_data['access_token'],
+                "refresh_token": tokens_data['refresh_token'], }, 200
+
 
 class KeycloakAdminError(Exception):
     message = 'Keycloak error'
